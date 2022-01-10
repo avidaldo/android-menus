@@ -8,10 +8,17 @@
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/activity_ej02_options_menu.xml" value="0.297554347826087" />
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/activity_ej04_context_menu.xml" value="0.24230072463768115" />
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/activity_ej05_toolbar.xml" value="0.297554347826087" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/activity_ej06_navigation_drawer.xml" value="0.2875905797101449" />
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/content_main.xml" value="0.2875905797101449" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/ej06_content_main.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/fragment_ej06_home.xml" value="0.2875905797101449" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/layout/nav_header.xml" value="0.2875905797101449" />
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/menu/menu1.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/menu/menu1clase.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/menu/menu2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/menu/menu3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/avida/pmdm/android-menus/Menus/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

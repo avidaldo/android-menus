@@ -5,6 +5,10 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.example.menus.databinding.ActivityEj03AtrasBinding
 
+
+// https://developer.android.com/training/appbar/up-action
+
+
 class Ej03AtrasActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj03AtrasBinding
@@ -16,12 +20,20 @@ class Ej03AtrasActivity : AppCompatActivity() {
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
+        /* Si indicamos la activity padre en el manifest, con esta línea creamos un
+        botón de regreso en la toolbar */
+        //supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        /* Realmente no es necesaria por ser la opción por defecto, la utilizaríamos con
+        false si queremos ocultar el botón pese a haber indicado una activity padre  */
+
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    /* También valdría con este método */
+
+/*    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         super.onBackPressed()
         //NavUtils.navigateUpFromSameTask(this)
         return true
-    }
+    }*/
 
 }

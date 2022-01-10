@@ -32,6 +32,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnEj5.setOnClickListener {
             startActivity(Intent(this, Ej05ToolbarActivity::class.java))
         }
+        binding.btnEj6.setOnClickListener {
+            startActivity(Intent(this, Ej06NavigationDrawerActivity::class.java))
+        }
 
 
     }

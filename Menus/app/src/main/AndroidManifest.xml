@@ -10,15 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".Ej06NavigationDrawerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Menus.NoActionBar" />
+        <activity
             android:name=".Ej05ToolbarActivity"
-            android:theme="@style/Theme.Menus.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Menus.NoActionBar" />
         <activity
             android:name=".Ej04ContextMenuActivity"
             android:exported="false" />
         <activity
             android:name=".Ej03AtrasActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName="com.example.menus.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.menus.MainActivity" />
+        </activity>
         <activity
             android:name=".Ej02OptionsMenuActivity"
             android:exported="false" />
