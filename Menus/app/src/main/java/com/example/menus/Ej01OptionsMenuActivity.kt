@@ -24,7 +24,7 @@ class Ej01OptionsMenuActivity : AppCompatActivity() {
         menuInflater.inflate(R.menu.menu1, menu)
         // Se define el fichero de recursos res/menu/menu1.xml
         menuInflater.inflate(R.menu.menu1clase, menu) // se pueden cargar dos menus
-        return true
+        return super.onCreateOptionsMenu(menu)
     }
 
 }

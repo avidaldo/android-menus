@@ -36,13 +36,12 @@ class Ej04ContextMenuActivity : AppCompatActivity() {
     }
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
+        when (item.itemId) {
             R.id.item1, R.id.item2, R.id.item3 -> {
                 Toast.makeText(this, item.title, Toast.LENGTH_SHORT).show()
-                true
             }
-            else -> super.onContextItemSelected(item)
         }
+        return super.onContextItemSelected(item)
     }
 
 }

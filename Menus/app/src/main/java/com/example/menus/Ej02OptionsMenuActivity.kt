@@ -28,19 +28,18 @@ class Ej02OptionsMenuActivity : AppCompatActivity() {
         return true
     }
 
-    /** Método que se lanza cuando se pulsa alguna opción del menú */
+    /** Método que se lanza cuando se pulsa alguna opción del menú */ // arreglar
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
+        when (item.itemId) {
             R.id.new_game -> {
-                Toast.makeText(this, "Opción: " + item.title, Toast.LENGTH_SHORT).show()
-                true
+                Toast.makeText(this, "Nuevo Juego", Toast.LENGTH_SHORT).show()
             }
             R.id.help -> {
                 Toast.makeText(this, "Pulsado ayuda", Toast.LENGTH_SHORT).show()
-                true
             }
-            else -> super.onOptionsItemSelected(item)
+            else -> Toast.makeText(this, "Opción: " + item.title, Toast.LENGTH_SHORT).show()
         }
+        return super.onOptionsItemSelected(item)
     }
 
 
