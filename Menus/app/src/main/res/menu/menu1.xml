@@ -12,6 +12,7 @@
             ifRoom: si hay espacio; never, always...
     -->
 
+
     <item android:id="@+id/item_submenu"
         android:title="ITEM con submenú"
         app:showAsAction="ifRoom">

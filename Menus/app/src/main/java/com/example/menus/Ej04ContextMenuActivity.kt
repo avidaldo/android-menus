@@ -20,7 +20,6 @@ class Ej04ContextMenuActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.tv4.setOnClickListener { clickNormal(it) }
-        binding.tv4.setOnClickListener { clickNormal(it) }
 
         registerForContextMenu(binding.tv4)
 

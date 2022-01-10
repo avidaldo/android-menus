@@ -8,6 +8,9 @@ import android.view.MenuItem
 import android.widget.Toast
 import com.example.menus.databinding.ActivityEj02OptionsMenuBinding
 
+//https://developer.android.com/training/appbar/actions
+
+
 class Ej02OptionsMenuActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj02OptionsMenuBinding
@@ -20,6 +23,7 @@ class Ej02OptionsMenuActivity : AppCompatActivity() {
 
     /** Método que se lanza cuando se crea el menú de la activity */
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        //menuInflater.inflate(R.menu.menu1, menu)
         menuInflater.inflate(R.menu.menu2, menu)
         return true
     }

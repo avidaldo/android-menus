@@ -3,8 +3,6 @@ package com.example.menus
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
 import com.example.menus.databinding.ActivityMainBinding
 
 // https://developer.android.com/guide/topics/ui/menus
@@ -30,6 +28,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnEj4.setOnClickListener {
             startActivity(Intent(this, Ej04ContextMenuActivity::class.java))
+        }
+        binding.btnEj5.setOnClickListener {
+            startActivity(Intent(this, Ej05ToolbarActivity::class.java))
         }
 
 

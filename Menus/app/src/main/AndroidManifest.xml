@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".Ej05ToolbarActivity"
+            android:theme="@style/Theme.Menus.NoActionBar"
+            android:exported="false" />
+        <activity
             android:name=".Ej04ContextMenuActivity"
             android:exported="false" />
         <activity
@@ -26,7 +30,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

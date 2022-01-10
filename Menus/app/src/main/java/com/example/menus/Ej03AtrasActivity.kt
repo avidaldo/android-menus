@@ -14,7 +14,7 @@ class Ej03AtrasActivity : AppCompatActivity() {
         binding = ActivityEj03AtrasBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
     }
 
