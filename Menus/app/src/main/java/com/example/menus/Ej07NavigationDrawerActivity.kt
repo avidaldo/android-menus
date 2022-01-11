@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
-import com.example.menus.databinding.ActivityEj06NavigationDrawerBinding
+import com.example.menus.databinding.ActivityEj07NavigationDrawerBinding
 import com.google.android.material.snackbar.Snackbar
 
 
@@ -15,13 +15,13 @@ https://www.youtube.com/watch?v=KBo1pyugG88
 https://developer.android.com/guide/navigation/navigation-ui#add_a_navigation_drawer
  */
 
-class Ej06NavigationDrawerActivity : AppCompatActivity() {
+class Ej07NavigationDrawerActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityEj06NavigationDrawerBinding
+    private lateinit var binding: ActivityEj07NavigationDrawerBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityEj06NavigationDrawerBinding.inflate(layoutInflater)
+        binding = ActivityEj07NavigationDrawerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.contentMain.toolbar)

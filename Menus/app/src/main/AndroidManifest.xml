@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
-            android:name=".Ej06NavigationDrawerActivity"
+            android:name=".Ej06AtrasMenuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Menus.NoActionBar" />
+        <activity
+            android:name=".Ej07NavigationDrawerActivity"
             android:exported="false"
             android:theme="@style/Theme.Menus.NoActionBar" />
         <activity
@@ -23,7 +27,7 @@
         <activity
             android:name=".Ej03AtrasActivity"
             android:exported="false"
-            android:parentActivityName="com.example.menus.MainActivity" >
+            android:parentActivityName=".MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -41,6 +45,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

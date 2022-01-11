@@ -5,7 +5,8 @@
     <item
         android:id="@+id/item1"
         android:title="ITEM 1"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_delete"/>
     <!--
         app:showAsAction permite especificar cuándo y cómo deberá aparecer en la ActionBar:
             ifRoom: si hay espacio; never, always...

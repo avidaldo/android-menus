@@ -21,16 +21,16 @@ class Ej03AtrasActivity : AppCompatActivity() {
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         /* Si indicamos la activity padre en el manifest, con esta línea creamos un
-        botón de regreso en la toolbar */
-        //supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        /* Realmente no es necesaria por ser la opción por defecto, la utilizaríamos con
-        false si queremos ocultar el botón pese a haber indicado una activity padre  */
+        botón de regreso en la toolbar. Realmente no es necesaria por ser la opción por defecto,
+        la utilizaríamos con false si queremos ocultar el botón pese a haber indicado una activity padre */
 
     }
 
-    /* También valdría con este método */
+    /* También valdría con este método (en Ej06AtrasMenuActivity ver cómo se gestiona junto a un
+    * menú): */
 
-/*    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    /*
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         super.onBackPressed()
         //NavUtils.navigateUpFromSameTask(this)
         return true

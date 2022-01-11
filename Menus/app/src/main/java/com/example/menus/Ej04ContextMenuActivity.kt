@@ -19,13 +19,13 @@ class Ej04ContextMenuActivity : AppCompatActivity() {
         binding = ActivityEj04ContextMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tv4.setOnClickListener { clickNormal(it) }
+        binding.tv4.setOnClickListener { clickNormal() }
 
         registerForContextMenu(binding.tv4)
 
     }
 
-    fun clickNormal(view: View?) {
+    fun clickNormal() {
         Toast.makeText(this, "Tienes que mantener pulsado más tiempo", Toast.LENGTH_SHORT).show()
     }
 

@@ -15,7 +15,7 @@ utilizando el atributo android:layout_gravity
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include android:id="@+id/content_main" layout="@layout/ej06_content_main" />
+    <include android:id="@+id/content_main" layout="@layout/ej07_content_main" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_menu"
