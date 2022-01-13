@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".Ej042ContextActivity"
+            android:exported="false" />
+        <activity
             android:name=".Ej06AtrasMenuActivity"
             android:exported="false"
             android:theme="@style/Theme.Menus.NoActionBar" />
