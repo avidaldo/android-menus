@@ -30,22 +30,24 @@ class Ej06AtrasMenuActivity : AppCompatActivity() {
         return true
     }
 
-    /** Método que se lanza cuando se pulsa alguna opción del menú */ // arreglar
+    /** Método que se lanza cuando se pulsa alguna opción del menú */
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
+        return when (item.itemId) {
             R.id.new_game -> {
                 Toast.makeText(this, "Nuevo Juego", Toast.LENGTH_SHORT).show()
+                true
             }
             R.id.help -> {
                 Toast.makeText(this, "Pulsado ayuda", Toast.LENGTH_SHORT).show()
+                true
             }
             android.R.id.home -> { // Referencia al icono de regreso, pudiendo modificar comportamiento
                 super.onBackPressed()
                 //finish()
+                true
             }
-            else -> Toast.makeText(this, "Opción: " + item.title, Toast.LENGTH_SHORT).show()
+            else -> super.onOptionsItemSelected(item) // false
         }
-        return super.onOptionsItemSelected(item)
     }
 
 }
